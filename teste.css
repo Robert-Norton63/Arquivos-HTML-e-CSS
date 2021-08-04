@@ -1,0 +1,110 @@
+*{
+margin: 5px;
+padding: 20px;
+box-sizing: border-box;
+background-color:darkslateblue;
+animation-name: cris;
+animation-duration: 6s;
+animation-delay: 3s;
+
+}
+
+
+.container{
+    display: flex;
+    background: firebrick;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+
+h1{
+    text-align: center;
+    margin-right: 22px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    background-color: blueviolet;
+    text-decoration: currentColor;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: row;
+    animation-name: cris;
+    animation-duration: 5s;
+
+}
+
+li{
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+img{
+    width: 550px;
+    height: auto;
+}
+
+@keyframes cris{
+    from{ color: aqua;}
+    to{color:dimgray}
+    to{color: brown;}
+    from{background-color: yellow;}
+    to{background-color: aquamarine;}
+    to{background-color: crimson;}   
+}
+
+ 
+.block{
+    width: 60%;
+    height: 20%;
+    flex-direction: row;
+    text-align: center;
+    background-color: chartreuse;
+    animation-name:cris;
+    animation-direction: reverse;
+    animation-duration:8s;
+}
+
+.box{
+    width: 60%;
+    height: 30%;
+    background-color: forestgreen;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.box-p{
+    text-align: center;
+}
+
+@media screen {
+    .container{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    video{
+        width: 100%;
+
+
+    }
+
+    .block{
+        width: 100%;
+        flex-direction: row;
+    }
+
+
+}

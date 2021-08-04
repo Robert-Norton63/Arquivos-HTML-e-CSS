@@ -1,0 +1,47 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: darkred;
+    animation-name: colt;
+    animation-duration: 10s;
+}
+
+h1{
+    padding-inline-start: auto;
+    margin-bottom: 30px;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+p{
+    margin-right: 12px;
+    padding-left: 12px;
+    color: darkturquoise;
+    text-align: center;
+}
+
+ul{
+    padding: 5%;
+    text-align: center;
+}
+
+
+input{
+    margin-right: 10%;
+    padding-right: 20%;
+}
+
+textarea{
+    margin-bottom: auto;
+    padding-right: 10px;
+}
+
+img{
+    margin-right:40px;
+    padding-left: 40px;
+}
+
+@keyframes colt{
+    from{background-color: darkturquoise;}
+    to{background-color: dimgrey;}
+}
